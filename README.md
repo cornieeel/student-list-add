@@ -1,7 +1,7 @@
-📚 Student List App
+## 📚 Student List App
 A simple JavaFX application for managing students 👩‍🎓👨‍🎓. You can add ➕ new students, view 👀 them in a table, and delete ❌ entries with ease. Data is displayed dynamically using TableView and ObservableList, ensuring smooth updates ⚡.
 
-✨ Features
+## ✨ Features
 ➕ Add Student: Opens a new window to input name & age.
 
 🗑️ Delete Student: Removes the selected student from the list.
@@ -12,7 +12,7 @@ A simple JavaFX application for managing students 👩‍🎓👨‍🎓. You ca
 
 💾 Persistence Ready: Can be extended to save data to a text file.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 ☕ Java
 
 🎨 JavaFX (FXML, Scene Builder)
@@ -21,14 +21,14 @@ A simple JavaFX application for managing students 👩‍🎓👨‍🎓. You ca
 
 📝 Git + GitHub for version control
 
-🚀 Getting Started
+## 🚀 Getting Started
 Clone the repo:
 git clone https://github.com/cornieeel/student-list-add.git
 Open in IntelliJ IDEA or your favorite IDE.
 
 Run the HelloApplication class to launch the app.
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 💾 Save & load students from a file or database.
 
 🎨 Improve UI/UX with styling and icons.
