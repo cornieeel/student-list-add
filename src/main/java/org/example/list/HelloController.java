@@ -35,6 +35,15 @@ public class HelloController
   public void addStudent(String username, int age){
     students.add(new Model(username, age));
   }
+  public void handleDeleteStudent(){
+    Model selected = modelTableView.getSelectionModel().getSelectedItem();
+
+    if(selected != null){
+      students.remove(selected);
+    } else {
+      System.out.println("No row selected!");
+    }
+  }
 
   public void handleAddButton(ActionEvent event){
 

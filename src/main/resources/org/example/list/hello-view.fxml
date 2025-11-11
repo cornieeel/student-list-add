@@ -23,7 +23,7 @@
                 <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER_LEFT">
                     <children>
                         <Button fx:id="addButton" alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="9.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-padding: 3px;" text="Add" onAction="#handleAddButton" />
-                        <Button fx:id="removeButton" alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="9.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-padding: 3px;" text="Remove" />
+                        <Button fx:id="removeButton" alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="9.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-padding: 3px;" text="Remove" onAction="#handleDeleteStudent" />
                     </children>
                 </VBox>
             </right>
